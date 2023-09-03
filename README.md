@@ -5,7 +5,7 @@
     ./db_init.sql
 ```
 
-### Rename env.example and change DB env
+### Rename env.example and change DB connection
 ```
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -24,3 +24,5 @@ composer install
 ```
 php artisan serve --port=8000
 ```
+
+Service can be accesed on http://localhost:8000
